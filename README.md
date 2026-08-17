@@ -54,6 +54,10 @@
   <img src="https://streak-stats.demolab.com?user=NIU-123370&hide_border=true&theme=radical" alt="streak" width="70%" />
 </p>
 
+<p>
+  <img src="https://github-trophy.vercel.app/?username=NIU-123370&theme=radical&no-frame=true&column=6&margin-w=8" alt="trophy" />
+</p>
+
 <img src="https://komarev.com/ghpvc/?username=NIU-123370&style=flat-square&color=22c55e" alt="profile views" />
 
 </div>
