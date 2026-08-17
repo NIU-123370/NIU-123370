@@ -18,6 +18,16 @@
   <img src="https://img.shields.io/badge/location-Beijing-0ea5e9?style=flat-square" alt="location" />
 </p>
 
+---
+
+## 🚀 [LoopX](https://github.com/huangruiteng/loopx) — 6 merged PRs
+
+Local-first control plane for long-running AI agents.
+
+- 💰 **Cost** — [#3117](https://github.com/huangruiteng/loopx/pull/3117) usage capture · [#3163](https://github.com/huangruiteng/loopx/issues/3163) real per-run ingest *(claimed)*
+- ✅ **Completion verification** — [#3142](https://github.com/huangruiteng/loopx/pull/3142) validation gate · [#3209](https://github.com/huangruiteng/loopx/pull/3209) module extraction · [#3210](https://github.com/huangruiteng/loopx/pull/3210) per-todo timeouts · [#3255](https://github.com/huangruiteng/loopx/pull/3255) JSON argv
+- 🔬 **Provider qualification** — [#3212](https://github.com/huangruiteng/loopx/pull/3212) NoKV fail-closed probes
+
 <p align="center">
   <img src="https://img.shields.io/badge/reach_for-fail--closed_design-e11d48?style=flat-square" alt="fail-closed" />
   &nbsp;
@@ -27,37 +37,6 @@
   &nbsp;
   <img src="https://img.shields.io/badge/reach_for-smallest_slices-06b6d4?style=flat-square" alt="smallest slices" />
 </p>
-
----
-
-## 🚀 Open Source · [LoopX](https://github.com/huangruiteng/loopx)
-
-Provider-neutral, local-first control plane for long-running AI agents (Python / TypeScript). **6 merged PRs**:
-
-<details open>
-<summary><b>💰 Cost observability</b></summary>
-
-- **[#3117](https://github.com/huangruiteng/loopx/pull/3117)** — per-goal token / cost / duration capture: provider-neutral usage seam, 24h & 7d aggregation, dashboard cards
-- **[#3163](https://github.com/huangruiteng/loopx/issues/3163)** — follow-up issue (claimed): ingest real per-run usage into the cost ledger
-
-</details>
-
-<details open>
-<summary><b>✅ Completion verification</b></summary>
-
-- **[#3142](https://github.com/huangruiteng/loopx/pull/3142)** — caller-approved validation gate for todo completion: a declared command runs before the completion commits; typed failure blocks it
-- **[#3209](https://github.com/huangruiteng/loopx/pull/3209)** — extracted the gate orchestration into a bounded module (pure move)
-- **[#3210](https://github.com/huangruiteng/loopx/pull/3210)** — per-todo `--validation-timeout-seconds` overrides the module default
-- **[#3255](https://github.com/huangruiteng/loopx/pull/3255)** — `--validation-command-json`: no-shell argv form, fail-closed on corrupted declarations
-
-</details>
-
-<details open>
-<summary><b>🔬 Provider qualification</b></summary>
-
-- **[#3212](https://github.com/huangruiteng/loopx/pull/3212)** — NoKV shadow-provider probes: durable completion projection, fail-closed contradiction / dangling cases
-
-</details>
 
 <div align="center">
 
