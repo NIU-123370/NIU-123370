@@ -20,23 +20,12 @@
 
 ---
 
-## 🚀 [LoopX](https://github.com/huangruiteng/loopx) — 6 merged PRs
+## 🤖 Interests
 
-Local-first control plane for long-running AI agents.
-
-- 💰 **Cost** — [#3117](https://github.com/huangruiteng/loopx/pull/3117) usage capture · [#3163](https://github.com/huangruiteng/loopx/issues/3163) real per-run ingest *(claimed)*
-- ✅ **Completion verification** — [#3142](https://github.com/huangruiteng/loopx/pull/3142) validation gate · [#3209](https://github.com/huangruiteng/loopx/pull/3209) module extraction · [#3210](https://github.com/huangruiteng/loopx/pull/3210) per-todo timeouts · [#3255](https://github.com/huangruiteng/loopx/pull/3255) JSON argv
-- 🔬 **Provider qualification** — [#3212](https://github.com/huangruiteng/loopx/pull/3212) NoKV fail-closed probes
-
-<p align="center">
-  <img src="https://img.shields.io/badge/reach_for-fail--closed_design-e11d48?style=flat-square" alt="fail-closed" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/reach_for-typed_receipts-f59e0b?style=flat-square" alt="typed receipts" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/reach_for-negative_fixtures-10b981?style=flat-square" alt="negative fixtures" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/reach_for-smallest_slices-06b6d4?style=flat-square" alt="smallest slices" />
-</p>
+- 🤖 **AI agents** — long-horizon reliability, orchestration, control planes
+- 🧠 **LLM systems** — tool use, evaluation, benchmarks
+- ✅ **Trustworthy software** — fail-closed design, typed contracts, testing
+- 🌏 **Open source** — active contributor to [LoopX](https://github.com/huangruiteng/loopx)
 
 <div align="center">
 
