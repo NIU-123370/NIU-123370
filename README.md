@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:8b5cf6,100:06b6d4&height=120&section=header" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,33:8b5cf6,66:22c55e,100:06b6d4&height=120&section=header" width="100%" alt="" />
 </p>
 
 <h1 align="center">Hi, I'm Niu Ruibo&nbsp;👋</h1>
@@ -15,6 +15,8 @@
   &nbsp;
   <img src="https://img.shields.io/badge/now-contributing_to_LoopX-d946ef?style=flat-square" alt="now" />
   &nbsp;
+  <img src="https://img.shields.io/badge/learning-agent_evals-22c55e?style=flat-square" alt="learning" />
+  &nbsp;
   <img src="https://img.shields.io/badge/location-Beijing-0ea5e9?style=flat-square" alt="location" />
 </p>
 
@@ -25,7 +27,16 @@
 - 🤖 **AI agents** — long-horizon reliability, orchestration, control planes
 - 🧠 **LLM systems** — tool use, evaluation, benchmarks
 - ✅ **Trustworthy software** — fail-closed design, typed contracts, testing
+- 📊 **Observability** — usage & cost tracking, dashboards for agent workloads
 - 🌏 **Open source** — active contributor to [LoopX](https://github.com/huangruiteng/loopx)
+
+## 🌱 Currently exploring
+
+- Multi-agent coordination & shared-goal authority
+- The MCP ecosystem and tool interoperability
+- TypeScript runtimes for control-plane cores
+
+<p align="center"><i>Make agents prove it, not promise it.</i></p>
 
 <div align="center">
 
@@ -43,10 +54,10 @@
   <img src="https://streak-stats.demolab.com?user=NIU-123370&hide_border=true&theme=radical" alt="streak" width="70%" />
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=NIU-123370&style=flat-square&color=ec4899" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=NIU-123370&style=flat-square&color=22c55e" alt="profile views" />
 
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:8b5cf6,100:ec4899&height=100&section=footer" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,33:22c55e,66:8b5cf6,100:ec4899&height=100&section=footer" width="100%" alt="" />
 </p>
