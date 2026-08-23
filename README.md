@@ -36,6 +36,10 @@
 - The MCP ecosystem and tool interoperability
 - TypeScript runtimes for control-plane cores
 
+## 🚀 Open-source contribution / 开源贡献
+
+- **LoopX** — Submitted [PR #3527](https://github.com/huangruiteng/loopx/pull/3527) for **bounded_segment_milestone**: strict fact validation, deterministic weekly milestone updates, documentation, fixtures, and tests. **Under review / 审核中**
+
 <p align="center"><i>Make agents prove it, not promise it.</i></p>
 
 <div align="center">
