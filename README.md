@@ -1,5 +1,5 @@
 <p>
-  <img src="./assets/aurora-top.svg?v=slim-flow-1" width="100%" align="top" alt="Continuously flowing cyan, violet, and peach aurora silk" /><br />
+  <img src="https://raw.githubusercontent.com/NIU-123370/NIU-123370/83ed98be966da7139a43cd157029b4a8ba42f85b/assets/aurora-top.svg" width="100%" align="top" alt="Continuously flowing cyan, violet, and peach aurora silk" /><br />
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/profile-description-mobile.svg?v=continuous-1" />
     <img src="./assets/profile-description.svg?v=continuous-1" width="100%" align="top" alt="Making long-running AI agents observable, accountable, and verifiable." />
@@ -20,5 +20,5 @@
 </p>
 
 <p>
-  <img src="./assets/aurora-bottom.svg?v=slim-flow-1" width="100%" align="top" alt="Continuously flowing aurora ribbon" />
+  <img src="https://raw.githubusercontent.com/NIU-123370/NIU-123370/83ed98be966da7139a43cd157029b4a8ba42f85b/assets/aurora-bottom.svg" width="100%" align="top" alt="Continuously flowing aurora ribbon" />
 </p>
