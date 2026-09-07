@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none" role="img" aria-label="Colorful returning light trails">
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset=".24" stop-color="#4D8DFF"/>
+      <stop offset=".50" stop-color="#A16CFF"/>
+      <stop offset=".75" stop-color="#FF65CB"/>
+      <stop offset="1" stop-color="#FFB56A"/>
+    </linearGradient>
+    <linearGradient id="edge-fade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset=".065" stop-color="white"/>
+      <stop offset=".935" stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade"><rect width="1200" height="120" fill="url(#edge-fade)"/></mask>
+    <filter id="soft-glow" x="-10%" y="-100%" width="120%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="point-glow" x="-10%" y="-100%" width="120%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <path id="rail" pathLength="1200" d="M-30 64C132 64 174 22 324 22S505 62 653 62S840 22 989 22S1148 54 1230 54"/>
+  </defs>
+  <style>
+    .rail{stroke:url(#spectrum);stroke-width:1.4;opacity:.65}
+    .haze{stroke:url(#spectrum);stroke-width:7;opacity:.25;filter:url(#soft-glow)}
+    .pulse{stroke:url(#spectrum);stroke-linecap:round;stroke-dasharray:2 1198;animation:flow 9.2s linear infinite reverse}
+    .halo{stroke-width:11;filter:url(#point-glow);opacity:.9}
+    .core{stroke:#E9F8FF;stroke-width:2.6;opacity:.95}
+    .one{animation-delay:-6.5s;stroke-dashoffset:-848}
+    .two{animation-duration:8.4s;animation-delay:-2.2s;stroke-dashoffset:-314}
+    .three{animation-duration:9.8s;animation-delay:-7.8s;stroke-dashoffset:-955}
+    .four{animation-duration:7.6s;animation-delay:-3.5s;stroke-dashoffset:-553}
+    @keyframes flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-1200}}
+    @media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+  </style>
+  <rect width="1200" height="120" fill="#0D1117"/>
+  <g mask="url(#fade)">
+    <g transform="translate(0 120) scale(1 -1)">
+      <g>
+        <use href="#rail" class="haze"/>
+        <use href="#rail" class="rail"/>
+        <use href="#rail" class="pulse halo one"/>
+        <use href="#rail" class="pulse core one"/>
+      </g>
+      <g transform="translate(0 10)">
+        <use href="#rail" class="haze"/>
+        <use href="#rail" class="rail"/>
+        <use href="#rail" class="pulse halo two"/>
+        <use href="#rail" class="pulse core two"/>
+      </g>
+      <g transform="translate(0 20)">
+        <use href="#rail" class="haze"/>
+        <use href="#rail" class="rail"/>
+        <use href="#rail" class="pulse halo three"/>
+        <use href="#rail" class="pulse core three"/>
+      </g>
+      <g transform="translate(0 30)">
+        <use href="#rail" class="haze"/>
+        <use href="#rail" class="rail"/>
+        <use href="#rail" class="pulse halo four"/>
+        <use href="#rail" class="pulse core four"/>
+      </g>
+    </g>
+  </g>
+</svg>

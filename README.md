@@ -1,7 +1,8 @@
 <p>
+  <img src="./assets/flow-top.svg" width="100%" align="top" alt="Flowing cyan, blue, violet, pink, and orange light trails" /><br />
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/neon-name-mobile.svg" />
-    <img src="./assets/neon-name.svg" width="100%" align="top" alt="Niu Ruibo — Build, create, repeat" />
+    <source media="(max-width: 640px)" srcset="./assets/description-mobile.svg" />
+    <img src="./assets/description.svg" width="100%" align="top" alt="Making long-running AI agents observable, accountable, and verifiable." />
   </picture>
 </p>
 
@@ -16,4 +17,8 @@
     <a href="https://github.com/NIU-123370?tab=repositories">all projects ↗</a> &nbsp; · &nbsp;
     <a href="mailto:912906590@qq.com">say hello ↗</a>
   </samp>
+</p>
+
+<p>
+  <img src="./assets/flow-bottom.svg" width="100%" align="top" alt="Flowing multicolor light trails" />
 </p>

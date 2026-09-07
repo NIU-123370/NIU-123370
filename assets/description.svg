@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Making long-running AI agents observable, accountable, and verifiable.</title>
+<desc id="desc">A luminous cyan, blue, violet and pink statement framed by subtle terminal details, with a slow sheen across AI agents.</desc>
+<defs>
+  <linearGradient id="spectrum" x1="192.0" y1="110" x2="1044.0" y2="220" gradientUnits="userSpaceOnUse"><stop stop-color="#6CF6EB"/><stop offset=".3" stop-color="#76CDFF"/><stop offset=".66" stop-color="#BEA3FF"/><stop offset="1" stop-color="#FF9FD8"/></linearGradient>
+  <linearGradient id="sheen"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".4"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#5A42AC" stop-opacity=".19"/><stop offset="1" stop-color="#213C6A" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="letters"><text x="600.0" y="197" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="119" font-weight="900" letter-spacing="-3">AI AGENTS</text></clipPath>
+  <clipPath id="bounds"><rect width="1200" height="310"/></clipPath>
+</defs>
+<style>.sheen{animation:sheen 10s ease-in-out infinite}@keyframes sheen{0%,15%{transform:translateX(-360px)}85%,100%{transform:translateX(1560px)}}@media(prefers-reduced-motion:reduce){.sheen{animation:none;opacity:0}}</style>
+<g clip-path="url(#bounds)">
+  <rect width="1200" height="310" fill="#0D1117"/>
+  <ellipse cx="600.0" cy="182" rx="564.0" ry="125" fill="url(#ambient)"/>
+  <path d="M22 46V24H45M1155 24H1178V46M22 263V285H45M1155 285H1178V263" stroke="#41627E" stroke-opacity=".65" stroke-width="1.2"/>
+  <text x="600.0" y="82" text-anchor="middle" fill="#AFC3D8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="46" letter-spacing="-1">Making long-running</text>
+  <g text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="119" font-weight="900" letter-spacing="-3">
+    <text x="600.0" y="197" fill="url(#spectrum)" filter="url(#glow)" opacity=".22">AI AGENTS</text>
+    <text x="600.0" y="197" fill="url(#spectrum)">AI AGENTS</text>
+  </g>
+  <g clip-path="url(#letters)"><rect class="sheen" x="-130" y="85" width="180" height="160" fill="url(#sheen)"/></g>
+  <g text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="27" letter-spacing=".4"><text x="600.0" y="266" fill="#9EDAF5">observable<tspan fill="#65839B"> · </tspan><tspan fill="#C4ADFF">accountable</tspan><tspan fill="#65839B"> · </tspan><tspan fill="#FFB9DD">verifiable</tspan></text></g>
+</g></svg>
