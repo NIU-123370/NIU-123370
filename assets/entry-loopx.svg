@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="104" viewBox="0 0 360 104" role="img" aria-labelledby="loopx-title">
+  <title id="loopx-title">LOOPX</title>
+  <defs>
+    <linearGradient id="loopx-line" x1="28" y1="0" x2="332" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#56E5FF" stop-opacity="0.9"/>
+      <stop offset="0.6" stop-color="#6E7BFF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#6E7BFF" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="104" fill="#0D1117"/>
+  <text x="28" y="61" fill="#E6EDF3" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="38" font-weight="600" letter-spacing="0.5">LOOPX</text>
+  <path d="M300 48h20m-7-7 7 7-7 7" fill="none" stroke="#56E5FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 83.5H332" fill="none" stroke="url(#loopx-line)" stroke-width="1"/>
+</svg>

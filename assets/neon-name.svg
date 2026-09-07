@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Niu Ruibo</title><desc id="desc">A neon developer nameplate with slow cyan, violet, and pink light moving across the name.</desc>
+<defs>
+  <linearGradient id="name" x1="120.0" y1="100" x2="1104.0" y2="220" gradientUnits="userSpaceOnUse"><stop stop-color="#68FAEC"/><stop offset=".32" stop-color="#72CBFF"/><stop offset=".62" stop-color="#BBA0FF"/><stop offset="1" stop-color="#FF96DC"/></linearGradient>
+  <linearGradient id="chrome"><stop stop-color="#14212D"/><stop offset=".6" stop-color="#1C1D32"/><stop offset="1" stop-color="#241B30"/></linearGradient>
+  <linearGradient id="rim"><stop stop-color="#65F7E5" stop-opacity=".7"/><stop offset=".5" stop-color="#899BFF" stop-opacity=".8"/><stop offset="1" stop-color="#FF97D8" stop-opacity=".6"/></linearGradient>
+  <linearGradient id="shine"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".48"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+  <filter id="aura" x="-40%" y="-200%" width="180%" height="500%"><feGaussianBlur stdDeviation="20"/></filter>
+  <clipPath id="letters"><text x="600.0" y="214" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="154" font-weight="900" letter-spacing="-7">NIU RUIBO</text></clipPath>
+  <clipPath id="frame"><rect width="1200" height="330" rx="9"/></clipPath>
+</defs>
+<style>
+  .light{animation:light 9s ease-in-out infinite}.glow{animation:glow 6s ease-in-out infinite}.beam{stroke-dasharray:180 1200;animation:beam 9s linear infinite}
+  @keyframes light{0%,15%{transform:translateX(-450px)}85%,100%{transform:translateX(1650px)}}
+  @keyframes glow{0%,100%{opacity:.22}50%{opacity:.42}}
+  @keyframes beam{to{stroke-dashoffset:-1380}}
+  @media(prefers-reduced-motion:reduce){.light,.glow,.beam{animation:none}.light{opacity:0}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="330" fill="#0D1117"/>
+  <path d="M10 0H1190Q1200 0 1200 10V43H0V10Q0 0 10 0Z" fill="url(#chrome)"/>
+  <path d="M10 1H1190" stroke="url(#rim)" stroke-width="2"/>
+  <circle cx="22" cy="23" r="5" fill="#FF8298"/><circle cx="41" cy="23" r="5" fill="#FFC775"/><circle cx="60" cy="23" r="5" fill="#7CE4BE"/>
+  <text x="600.0" y="29" text-anchor="middle" fill="#A0ACC1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">@NIU-123370</text>
+  <path d="M1160 20H1175M1160 25H1170" stroke="#8894AB" stroke-width="1.5"/>
+  <ellipse class="glow" cx="660.0" cy="222" rx="408.00000000000006" ry="17" fill="#9769FF" filter="url(#aura)" opacity=".3"/>
+  <g font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="154" font-weight="900" letter-spacing="-7" text-anchor="middle">
+    <text class="glow" x="600.0" y="214" fill="url(#name)" filter="url(#soft)" opacity=".25">NIU RUIBO</text>
+    <text x="600.0" y="214" fill="url(#name)">NIU RUIBO</text>
+  </g>
+  <g clip-path="url(#letters)"><rect class="light" x="-160" y="60" width="240" height="190" fill="url(#shine)" transform="skewX(-14)"/></g>
+  <text x="600.0" y="268" text-anchor="middle" fill="#A9B8CF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20" letter-spacing="4">BUILD · CREATE · REPEAT</text>
+  <path d="M26 311H1174" stroke="#212D42"/>
+  <path class="beam" d="M26 311H1174" stroke="url(#rim)" stroke-width="1.6"/>
+</g></svg>
