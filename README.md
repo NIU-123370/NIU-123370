@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Niu Ruibo — Building agents. Shipping ideas." />
+  <img src="./assets/profile-cover.png" width="100%" alt="Niu Ruibo — liquid chrome infinity with blue and violet light trails" />
 </p>
 
 <p align="center">写代码，造 Agent，把想法变成现实。</p>
