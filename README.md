@@ -10,25 +10,20 @@
 
 <br />
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/huangruiteng/loopx">LoopX ↗</a></h3>
-      <p>Agent control plane</p>
-      <p><sub>Open-source contributor</sub></p>
-    </td>
-    <td width="34%" valign="top">
-      <h3><a href="https://github.com/NIU-123370/xpd-report-agent">Report Agent ↗</a></h3>
-      <p>Commerce analytics</p>
-      <p><sub>Python · FastAPI · Hermes</sub></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/NIU-123370/RAG-in-a-Box">RAG-in-a-Box ↗</a></h3>
-      <p>Multimodal retrieval</p>
-      <p><sub>Python · FastAPI · React</sub></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <b><a href="https://github.com/huangruiteng/loopx">LoopX ↗</a></b><br />
+  <sub>Agent control plane · Open-source contributor</sub>
+</p>
+
+<p align="center">
+  <b><a href="https://github.com/NIU-123370/xpd-report-agent">Report Agent ↗</a></b><br />
+  <sub>Commerce analytics · Python / FastAPI</sub>
+</p>
+
+<p align="center">
+  <b><a href="https://github.com/NIU-123370/RAG-in-a-Box">RAG-in-a-Box ↗</a></b><br />
+  <sub>Multimodal retrieval · Python / React</sub>
+</p>
 
 <br />
 
