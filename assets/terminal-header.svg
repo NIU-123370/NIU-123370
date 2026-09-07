@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Niu Ruibo</title><desc id="desc">AI agents, RAG, and open source. A developer terminal with a softly animated cursor and code panel.</desc>
+<defs>
+  <linearGradient id="name" x1="25" y1="100" x2="450" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#D9FCFF"/><stop offset=".48" stop-color="#70D9FF"/><stop offset="1" stop-color="#AFACFF"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#4ADFEB"/><stop offset=".5" stop-color="#459EFF"/><stop offset="1" stop-color="#B09AFF"/></linearGradient>
+  <radialGradient id="glow-bg"><stop stop-color="#155C8D" stop-opacity=".18"/><stop offset="1" stop-color="#155C8D" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<style>
+.code-step{animation:code-step 8s steps(1,end) infinite}@keyframes code-step{0%,100%{transform:translateY(0)}25%{transform:translateY(26px)}50%{transform:translateY(52px)}75%{transform:translateY(78px)}}.cursor{animation:blink 1.4s steps(1,end) infinite}.trace{stroke-dasharray:165 1181;animation:trace 8s linear infinite}.signal{animation:signal 3.6s ease-in-out infinite}.scan{stroke-dasharray:90 610;animation:scan 6s linear infinite}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}@keyframes trace{to{stroke-dashoffset:-1346}}@keyframes signal{0%,100%{opacity:.35}50%{opacity:1}}@keyframes scan{to{stroke-dashoffset:-700}}
+@media(prefers-reduced-motion:reduce){.cursor,.trace,.signal,.scan,.code-step{animation:none}}
+</style>
+<rect width="1200" height="252" fill="#0D1117"/>
+<ellipse cx="210" cy="145" rx="290" ry="100" fill="url(#glow-bg)"/>
+<path d="M12 0H1188Q1200 0 1200 12V44H0V12Q0 0 12 0Z" fill="#121D2B"/>
+<path d="M12 1H1188" stroke="url(#accent)" stroke-width="2"/>
+<circle cx="23" cy="23" r="5" fill="#F27583"/><circle cx="41" cy="23" r="5" fill="#EFC06F"/><circle cx="59" cy="23" r="5" fill="#71D9A5"/>
+<text x="83" y="29" fill="#8DAAC2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">niu@github:~/workspace</text>
+<path d="M0 44H1200" stroke="#233349"/>
+<text x="25" y="91" fill="#BCCCDC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22"><tspan fill="#78E9BE">❯</tspan> whoami</text>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="52" font-weight="700" letter-spacing="-2">
+  <text x="24" y="151" fill="#5BCEFF" opacity=".22" filter="url(#glow)">Niu Ruibo.</text>
+  <text x="24" y="151" fill="url(#name)">Niu Ruibo<tspan fill="#A99BFF">.</tspan></text>
+</g>
+<text x="26" y="193" fill="#AFC1D3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="21">AI agents · RAG · Open source</text>
+<rect class="cursor" x="395" y="175" width="10" height="20" rx="1" fill="#70E4CD"/>
+<path d="M26 226H566" stroke="#1B3144"/>
+<path class="scan" d="M26 226H566" stroke="url(#accent)" stroke-width="1.8"/>
+
+<g transform="translate(666 66)">
+  <rect width="508" height="165" rx="8" fill="#0A1526" stroke="#203B57"/>
+  <path d="M12 0H496Q508 0 508 12V153Q508 165 496 165H12Q0 165 0 153V12Q0 0 12 0Z" class="trace" stroke="url(#accent)" stroke-width="1.6" fill="none"/>
+  <text x="17" y="23" fill="#587993" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">agent.config.ts</text>
+  <rect class="code-step" x="12" y="39" width="484" height="24" rx="3" fill="#57B4FF" opacity=".065"/><g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">
+    <text x="20" y="55" fill="#C9D1D9"><tspan fill="#BAA6FF">const </tspan><tspan fill="#8DCFFF">agent </tspan>= {</text>
+    <text x="40" y="81" fill="#D3E3F3">focus: <tspan fill="#85ECC9">"real-world tasks"</tspan>,</text>
+    <text x="40" y="107" fill="#D3E3F3">tools: [<tspan fill="#85ECC9">"RAG"</tspan>, <tspan fill="#85ECC9">"MCP"</tspan>],</text>
+    <text x="40" y="133" fill="#D3E3F3">loop: <tspan fill="#85ECC9">"build → verify"</tspan></text>
+    <text x="20" y="155" fill="#C9D1D9">};</text>
+  </g>
+  <circle class="signal" cx="477" cy="20" r="3" fill="#65DBFF"/>
+</g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" fill="none" role="img" aria-label="Projects">
+<rect width="1200" height="72" fill="#0D1117"/>
+<text x="25" y="40" fill="#C9D1D9" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22"><tspan fill="#7EE787">❯</tspan> ls projects/</text>
+<path d="M25 62H1175" stroke="#26313D"/>
+</svg>

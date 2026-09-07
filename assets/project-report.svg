@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="190" viewBox="0 0 380 190" fill="none" role="img" aria-labelledby="title">
-<title id="title">Report Agent — Commerce Analytics · Xpd-Report-Agent</title>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="380" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#141B33"/><stop offset="1" stop-color="#17172E"/></linearGradient></defs>
-<rect x=".5" y=".5" width="379" height="189" rx="17" fill="url(#bg)" stroke="#2C3354"/>
-<g stroke="#8DE0EC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75" transform="translate(22 -12)"><path d="M267 68V53M283 68V40M299 68V48M315 68V30"/></g>
-<text x="25" y="36" fill="#8DE0EC" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.2">XPD-REPORT-AGENT</text>
-<text x="24" y="105" fill="#ECF0FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-1">Report Agent</text>
-<text x="26" y="143" fill="#9CA8CA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing=".7">COMMERCE ANALYTICS</text>
-<path d="M333 149L347 135M334 135H347V148" stroke="#8DE0EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25 168H68" stroke="#8DE0EC" stroke-opacity=".65" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="85" viewBox="0 0 1200 85" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">xpd-report-agent</title><desc id="desc">Commerce analytics · PYTHON / FASTAPI. Open GitHub repository.</desc><defs><linearGradient id="row-accent"><stop stop-color="#6ADFEB"/><stop offset=".5" stop-color="#5CAEFF"/><stop offset="1" stop-color="#ADACFF"/></linearGradient></defs><style>.sweep{stroke-dasharray:120 1080;animation:sweep 10s linear infinite}@keyframes sweep{to{stroke-dashoffset:-1200}}@media(prefers-reduced-motion:reduce){.sweep{animation:none}}</style>
+<rect width="1200" height="85" fill="#0D1117"/>
+<path d="M27 27L35 33L27 39" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="42" fill="url(#row-accent)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="25" font-weight="600">xpd-report-agent</text>
+<text x="53" y="68" fill="#8B9BAE" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">Commerce analytics</text>
+<text x="1110" y="44" text-anchor="end" fill="#63768A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">PYTHON / FASTAPI</text>
+<path d="M1152 43L1164 31M1153 31H1164V42" stroke="#627E99" stroke-width="1.8"/>
+<path class="sweep" stroke-opacity=".4" d="M52 84H1175" stroke="url(#row-accent)"/>
 </svg>

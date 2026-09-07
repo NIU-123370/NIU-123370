@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="254" viewBox="0 0 600 254" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Niu Ruibo</title><desc id="desc">AI agents, RAG, and open source. A developer terminal with a softly animated cursor and code panel.</desc>
+<defs>
+  <linearGradient id="name" x1="25" y1="100" x2="450" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#D9FCFF"/><stop offset=".48" stop-color="#70D9FF"/><stop offset="1" stop-color="#AFACFF"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#4ADFEB"/><stop offset=".5" stop-color="#459EFF"/><stop offset="1" stop-color="#B09AFF"/></linearGradient>
+  <radialGradient id="glow-bg"><stop stop-color="#155C8D" stop-opacity=".18"/><stop offset="1" stop-color="#155C8D" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<style>
+.cursor{animation:blink 1.4s steps(1,end) infinite}.trace{stroke-dasharray:165 1181;animation:trace 8s linear infinite}.signal{animation:signal 3.6s ease-in-out infinite}.scan{stroke-dasharray:90 610;animation:scan 6s linear infinite}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}@keyframes trace{to{stroke-dashoffset:-1346}}@keyframes signal{0%,100%{opacity:.35}50%{opacity:1}}@keyframes scan{to{stroke-dashoffset:-700}}
+@media(prefers-reduced-motion:reduce){.cursor,.trace,.signal,.scan{animation:none}}
+</style>
+<rect width="600" height="254" fill="#0D1117"/>
+<ellipse cx="210" cy="145" rx="290" ry="100" fill="url(#glow-bg)"/>
+<path d="M12 0H588Q600 0 600 12V44H0V12Q0 0 12 0Z" fill="#121D2B"/>
+<path d="M12 1H588" stroke="url(#accent)" stroke-width="2"/>
+<circle cx="23" cy="23" r="5" fill="#F27583"/><circle cx="41" cy="23" r="5" fill="#EFC06F"/><circle cx="59" cy="23" r="5" fill="#71D9A5"/>
+<text x="83" y="29" fill="#8DAAC2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">niu@github:~/workspace</text>
+<path d="M0 44H600" stroke="#233349"/>
+<text x="25" y="91" fill="#BCCCDC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22"><tspan fill="#78E9BE">❯</tspan> whoami</text>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="49" font-weight="700" letter-spacing="-2">
+  <text x="24" y="151" fill="#5BCEFF" opacity=".22" filter="url(#glow)">Niu Ruibo.</text>
+  <text x="24" y="151" fill="url(#name)">Niu Ruibo<tspan fill="#A99BFF">.</tspan></text>
+</g>
+<text x="26" y="195" fill="#AFC1D3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="23">AI agents · RAG · Open source</text>
+<rect class="cursor" x="430" y="177" width="10" height="20" rx="1" fill="#70E4CD"/>
+<path d="M26 228H573" stroke="#1B3144"/>
+<path class="scan" d="M26 228H573" stroke="url(#accent)" stroke-width="1.8"/>
+
+</svg>

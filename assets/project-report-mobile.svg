@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="103" viewBox="0 0 600 103" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">xpd-report-agent</title><desc id="desc">Commerce analytics · PYTHON / FASTAPI. Open GitHub repository.</desc><defs><linearGradient id="row-accent"><stop stop-color="#6ADFEB"/><stop offset=".5" stop-color="#5CAEFF"/><stop offset="1" stop-color="#ADACFF"/></linearGradient></defs><style>.sweep{stroke-dasharray:120 1080;animation:sweep 10s linear infinite}@keyframes sweep{to{stroke-dashoffset:-1200}}@media(prefers-reduced-motion:reduce){.sweep{animation:none}}</style>
+<rect width="600" height="103" fill="#0D1117"/>
+<path d="M27 27L35 33L27 39" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="42" fill="url(#row-accent)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="27" font-weight="600">xpd-report-agent</text>
+<text x="53" y="78" fill="#8B9BAE" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22">Commerce analytics</text>
+
+<path d="M552 43L564 31M553 31H564V42" stroke="#627E99" stroke-width="1.8"/>
+<path class="sweep" stroke-opacity=".4" d="M52 102H575" stroke="url(#row-accent)"/>
+</svg>
