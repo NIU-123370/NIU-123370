@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="190" viewBox="0 0 380 190" fill="none" role="img" aria-labelledby="title">
+<title id="title">LoopX — Agent Control Plane · Contributor</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="380" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#141B33"/><stop offset="1" stop-color="#17172E"/></linearGradient></defs>
+<rect x=".5" y=".5" width="379" height="189" rx="17" fill="url(#bg)" stroke="#2C3354"/>
+<g stroke="#9CA9FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75" transform="translate(22 -12)"><path d="M289 51C280 36 263 43 263 55S280 74 289 59C298 44 315 36 315 55S298 74 289 51Z"/></g>
+<text x="25" y="36" fill="#9CA9FF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.2">CONTRIBUTOR</text>
+<text x="24" y="105" fill="#ECF0FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-1">LoopX</text>
+<text x="26" y="143" fill="#9CA8CA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing=".7">AGENT CONTROL PLANE</text>
+<path d="M333 149L347 135M334 135H347V148" stroke="#9CA9FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 168H68" stroke="#9CA9FF" stroke-opacity=".65" stroke-width="2"/>
+</svg>

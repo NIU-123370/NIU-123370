@@ -1,29 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Niu Ruibo — AI agents, RAG, and open source</title>
-  <desc id="desc">Building practical AI agents and verifiable systems. A diagram connects goal, work, and evidence.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111C2A" />
-      <stop offset="1" stop-color="#102B2B" />
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#92CBBF" opacity=".12" />
-    </pattern>
-  </defs>
-  <rect width="1200" height="300" rx="20" fill="url(#background)" />
-  <rect width="1200" height="300" rx="20" fill="url(#grid)" />
-  <rect x="48" y="46" width="24" height="3" rx="1.5" fill="#80E2BA" />
-  <text x="84" y="53" fill="#80E2BA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">AI AGENTS / RAG / OPEN SOURCE</text>
-  <text x="46" y="145" fill="#F3F6F2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">Niu Ruibo<tspan fill="#80E2BA">.</tspan></text>
-  <text x="49" y="191" fill="#BDCEC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Building practical agents. Making work verifiable.</text>
-  <text x="49" y="253" fill="#80E2BA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="1.5">OBSERVABLE · ACCOUNTABLE · VERIFIABLE</text>
-  <path d="M835 108H883C900 108 900 155 917 155H966C983 155 983 211 1000 211H1045" stroke="#80E2BA" stroke-opacity=".55" stroke-width="2" />
-  <rect x="780" y="83" width="106" height="48" rx="10" fill="#162E33" stroke="#80E2BA" stroke-opacity=".45" />
-  <rect x="909" y="131" width="106" height="48" rx="10" fill="#162E33" stroke="#80E2BA" stroke-opacity=".45" />
-  <rect x="1018" y="187" width="134" height="48" rx="10" fill="#80E2BA" />
-  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" text-anchor="middle">
-    <text x="833" y="113" fill="#D7E6E1">goal</text>
-    <text x="962" y="161" fill="#D7E6E1">work</text>
-    <text x="1085" y="217" fill="#102B2B" font-weight="700">evidence</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Niu Ruibo — Building agents. Shipping ideas.</title>
+<desc id="desc">An electric blue wireframe planet with slowly orbiting violet and cyan nodes. AI agents, RAG, and open source.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#10172D"/><stop offset=".55" stop-color="#0D1026"/><stop offset="1" stop-color="#18133C"/></linearGradient>
+  <linearGradient id="ink" x1="75" y1="160" x2="580" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F6FF"/><stop offset=".55" stop-color="#DAE1FF"/><stop offset="1" stop-color="#A59DFF"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#635BEB" stop-opacity=".28"/><stop offset=".65" stop-color="#4C46AA" stop-opacity=".1"/><stop offset="1" stop-color="#5147C6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="sphere" cx=".3" cy=".25" r=".85"><stop stop-color="#596CD8" stop-opacity=".22"/><stop offset="1" stop-color="#0E1533" stop-opacity=".55"/></radialGradient>
+  <linearGradient id="wire" x1="848" y1="120" x2="1100" y2="380" gradientUnits="userSpaceOnUse"><stop stop-color="#8CDCF5"/><stop offset=".5" stop-color="#7994FF"/><stop offset="1" stop-color="#A785FF"/></linearGradient>
+  <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="clip"><rect width="1280" height="480" rx="24"/></clipPath>
+</defs>
+<style>
+  .orbit{transform-origin:980px 246px;animation:orbit 32s linear infinite}
+  .orbit-reverse{transform-origin:980px 246px;animation:orbit 44s linear infinite reverse}
+  .pulse{animation:pulse 6s ease-in-out infinite}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}
+  @media(prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.pulse{animation:none}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1280" height="480" rx="24" fill="url(#bg)"/>
+  <circle cx="992" cy="251" r="355" fill="url(#aura)"/>
+  <path d="M680 0V480M0 394H1280" stroke="#A7ACF5" stroke-opacity=".07"/>
+  <path d="M30 57V30H57M1223 30H1250V57M30 423V450H57M1223 450H1250V423" stroke="#8998EA" stroke-opacity=".4"/>
+  <circle cx="754" cy="54" r="1.5" fill="#ADBEFF" opacity="0.5"/><circle cx="885" cy="127" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1016" cy="200" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1147" cy="273" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="739" cy="346" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="870" cy="419" r="1.5" fill="#ADBEFF" opacity="0.22"/><circle cx="1001" cy="85" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1132" cy="158" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="724" cy="231" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="855" cy="304" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="986" cy="377" r="1.5" fill="#ADBEFF" opacity="0.22"/><circle cx="1117" cy="43" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="709" cy="116" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="840" cy="189" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="971" cy="262" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1102" cy="335" r="1.5" fill="#ADBEFF" opacity="0.22"/><circle cx="1233" cy="408" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="825" cy="74" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="956" cy="147" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1087" cy="220" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1218" cy="293" r="1.5" fill="#ADBEFF" opacity="0.5"/><circle cx="810" cy="366" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="941" cy="439" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1072" cy="105" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1203" cy="178" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="795" cy="251" r="1.5" fill="#ADBEFF" opacity="0.22"/><circle cx="926" cy="324" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1057" cy="397" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1188" cy="63" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="780" cy="136" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="911" cy="209" r="1.5" fill="#ADBEFF" opacity="0.22"/><circle cx="1042" cy="282" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1173" cy="355" r="0.8" fill="#ADBEFF" opacity="0.5"/><circle cx="765" cy="428" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="896" cy="94" r="0.8" fill="#ADBEFF" opacity="0.22"/><circle cx="1027" cy="167" r="1.5" fill="#ADBEFF" opacity="0.22"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="74" y="66" fill="#B3BEED" font-size="19" letter-spacing="3">NIU RUIBO</text>
+    <text x="74" y="108" fill="#7D8BAF" font-size="15" letter-spacing="2">AI AGENTS / RAG / OPEN SOURCE</text>
   </g>
+  <text x="63" y="303" fill="url(#ink)" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="222" letter-spacing="-14">NIU<tspan fill="#9691FF">.</tspan></text>
+  <text x="77" y="352" fill="#D3D9F0" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="-.3">Building agents. Shipping ideas.</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1.2">
+    <path d="M77 426H99" stroke="#8F94FF" stroke-width="3"/>
+    <text x="115" y="431" fill="#929FC8">PYTHON / TYPESCRIPT / MCP</text>
+  </g>
+  <ellipse cx="980" cy="246" rx="235" ry="83" transform="rotate(-32 980 246)" stroke="#8088D5" stroke-opacity=".4"/>
+  <ellipse cx="980" cy="246" rx="204" ry="91" transform="rotate(38 980 246)" stroke="#8088D5" stroke-opacity=".2"/>
+  <circle cx="980" cy="246" r="164" stroke="#8599FF" stroke-opacity=".1" stroke-dasharray="2 9"/>
+  <circle cx="980" cy="246" r="124" fill="url(#sphere)" stroke="url(#wire)" stroke-opacity=".8"/>
+  <g stroke="url(#wire)" stroke-opacity=".38" stroke-width=".85"><ellipse cx="980" cy="246" rx="30" ry="124"/><ellipse cx="980" cy="246" rx="62" ry="124"/><ellipse cx="980" cy="246" rx="96" ry="124"/><ellipse cx="980" cy="246" rx="123" ry="124"/><ellipse cx="980" cy="156" rx="85.30" ry="16.21"/><ellipse cx="980" cy="188" rx="109.60" ry="20.82"/><ellipse cx="980" cy="220" rx="121.24" ry="23.04"/><ellipse cx="980" cy="256" rx="123.60" ry="23.48"/><ellipse cx="980" cy="292" rx="115.15" ry="21.88"/><ellipse cx="980" cy="326" rx="94.74" ry="18.00"/></g>
+  <path d="M930 294V198L1030 294V198" stroke="#C3CFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <g class="orbit">
+    <circle cx="980" cy="82" r="15" fill="#8D97FF" filter="url(#glow)" opacity=".75"/>
+    <circle cx="980" cy="82" r="5" fill="#CBD0FF"/>
+    <path d="M980 82A164 164 0 0 1 1096 130" stroke="#A7B0FF" stroke-opacity=".55" stroke-width="2"/>
+    <circle cx="980" cy="410" r="4" fill="#8B86EF"/>
+  </g>
+  <g class="orbit-reverse">
+    <circle cx="1184" cy="246" r="13" fill="#71DCEA" filter="url(#glow)" opacity=".7"/>
+    <circle cx="1184" cy="246" r="4" fill="#9EEAF3"/>
+    <circle cx="776" cy="246" r="3" fill="#A898F4"/>
+  </g>
+  <g class="pulse"><circle cx="1091" cy="193" r="9" fill="#8F9FFF" filter="url(#glow)"/><circle cx="1091" cy="193" r="3" fill="#E3E8FF"/></g>
+  <text x="980" y="430" text-anchor="middle" fill="#8490BC" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3">IDEA → BUILD → VERIFY</text>
+</g>
 </svg>
