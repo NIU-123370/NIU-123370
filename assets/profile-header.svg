@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Niu Ruibo — AI agents, RAG, and open source</title>
+  <desc id="desc">Building practical AI agents and verifiable systems. A diagram connects goal, work, and evidence.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111C2A" />
+      <stop offset="1" stop-color="#102B2B" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#92CBBF" opacity=".12" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#background)" />
+  <rect width="1200" height="300" rx="20" fill="url(#grid)" />
+  <rect x="48" y="46" width="24" height="3" rx="1.5" fill="#80E2BA" />
+  <text x="84" y="53" fill="#80E2BA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">AI AGENTS / RAG / OPEN SOURCE</text>
+  <text x="46" y="145" fill="#F3F6F2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">Niu Ruibo<tspan fill="#80E2BA">.</tspan></text>
+  <text x="49" y="191" fill="#BDCEC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Building practical agents. Making work verifiable.</text>
+  <text x="49" y="253" fill="#80E2BA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="1.5">OBSERVABLE · ACCOUNTABLE · VERIFIABLE</text>
+  <path d="M835 108H883C900 108 900 155 917 155H966C983 155 983 211 1000 211H1045" stroke="#80E2BA" stroke-opacity=".55" stroke-width="2" />
+  <rect x="780" y="83" width="106" height="48" rx="10" fill="#162E33" stroke="#80E2BA" stroke-opacity=".45" />
+  <rect x="909" y="131" width="106" height="48" rx="10" fill="#162E33" stroke="#80E2BA" stroke-opacity=".45" />
+  <rect x="1018" y="187" width="134" height="48" rx="10" fill="#80E2BA" />
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" text-anchor="middle">
+    <text x="833" y="113" fill="#D7E6E1">goal</text>
+    <text x="962" y="161" fill="#D7E6E1">work</text>
+    <text x="1085" y="217" fill="#102B2B" font-weight="700">evidence</text>
+  </g>
+</svg>
