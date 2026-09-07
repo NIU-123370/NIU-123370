@@ -1,19 +1,39 @@
-<p align="center">
-  <img src="./assets/profile-cover.png" width="100%" alt="Niu Ruibo — liquid chrome infinity with blue and violet light trails" />
-</p>
-
-<p align="center">写代码，造 Agent，把想法变成现实。</p>
+<h1 align="center">Niu Ruibo</h1>
 
 <p align="center">
-  <a href="https://github.com/huangruiteng/loopx"><img src="./assets/project-loopx.svg" width="32%" alt="LoopX — Agent control plane · Contributor" /></a>
-  <a href="https://github.com/NIU-123370/xpd-report-agent"><img src="./assets/project-report.svg" width="32%" alt="xpd-report-agent — Commerce analytics" /></a>
-  <a href="https://github.com/NIU-123370/RAG-in-a-Box"><img src="./assets/project-rag.svg" width="32%" alt="RAG-in-a-Box — Multimodal retrieval" /></a>
+  Building agents. Shipping ideas.
 </p>
 
 <p align="center">
-  <a href="https://github.com/NIU-123370?tab=repositories">全部项目 ↗</a> &nbsp; · &nbsp;
-  <a href="https://github.com/huangruiteng/loopx/pulls?q=is%3Apr+is%3Amerged+author%3ANIU-123370">开源贡献 ↗</a> &nbsp; · &nbsp;
-  <a href="mailto:912906590@qq.com">联系我 ↗</a>
+  <code>AI Agents</code> &nbsp; <code>RAG</code> &nbsp; <code>Open Source</code>
 </p>
 
-<p align="center"><sub>Make agents prove it, not promise it.</sub></p>
+<br />
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/huangruiteng/loopx">LoopX ↗</a></h3>
+      <p>Agent control plane</p>
+      <p><sub>Open-source contributor</sub></p>
+    </td>
+    <td width="34%" valign="top">
+      <h3><a href="https://github.com/NIU-123370/xpd-report-agent">Report Agent ↗</a></h3>
+      <p>Commerce analytics</p>
+      <p><sub>Python · FastAPI · Hermes</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/NIU-123370/RAG-in-a-Box">RAG-in-a-Box ↗</a></h3>
+      <p>Multimodal retrieval</p>
+      <p><sub>Python · FastAPI · React</sub></p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<p align="center">
+  <a href="https://github.com/NIU-123370?tab=repositories">All projects ↗</a> &nbsp; · &nbsp;
+  <a href="https://github.com/huangruiteng/loopx/pulls?q=is%3Apr+is%3Amerged+author%3ANIU-123370">Contributions ↗</a> &nbsp; · &nbsp;
+  <a href="mailto:912906590@qq.com">Email ↗</a>
+</p>
