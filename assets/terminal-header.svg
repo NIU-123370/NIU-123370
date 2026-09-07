@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">Niu Ruibo</title><desc id="desc">AI agents, RAG, and open source. A developer terminal with a softly animated cursor and code panel.</desc>
 <defs>
-  <linearGradient id="name" x1="25" y1="100" x2="450" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#D9FCFF"/><stop offset=".48" stop-color="#70D9FF"/><stop offset="1" stop-color="#AFACFF"/></linearGradient>
+  <linearGradient id="name" x1="25" y1="100" x2="450" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#7EF2E8"/><stop offset=".38" stop-color="#77C8FF"/><stop offset=".72" stop-color="#B69BFF"/><stop offset="1" stop-color="#FCA8D8"/></linearGradient>
   <linearGradient id="accent"><stop stop-color="#4ADFEB"/><stop offset=".5" stop-color="#459EFF"/><stop offset="1" stop-color="#B09AFF"/></linearGradient>
   <radialGradient id="glow-bg"><stop stop-color="#155C8D" stop-opacity=".18"/><stop offset="1" stop-color="#155C8D" stop-opacity="0"/></radialGradient>
   <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
@@ -21,9 +21,9 @@
 <text x="25" y="91" fill="#BCCCDC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="22"><tspan fill="#78E9BE">❯</tspan> whoami</text>
 <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="52" font-weight="700" letter-spacing="-2">
   <text x="24" y="151" fill="#5BCEFF" opacity=".22" filter="url(#glow)">Niu Ruibo.</text>
-  <text x="24" y="151" fill="url(#name)">Niu Ruibo<tspan fill="#A99BFF">.</tspan></text>
+  <text x="24" y="151" fill="url(#name)">Niu Ruibo<tspan fill="#FFB477">.</tspan></text>
 </g>
-<text x="26" y="193" fill="#AFC1D3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="21">AI agents · RAG · Open source</text>
+<text x="26" y="193" fill="#AFC1D3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="21"><tspan fill="#8BD8FF">AI agents</tspan><tspan fill="#74899D"> · </tspan><tspan fill="#D2A6FF">RAG</tspan><tspan fill="#74899D"> · </tspan><tspan fill="#FFD08A">Open source</tspan></text>
 <rect class="cursor" x="395" y="175" width="10" height="20" rx="1" fill="#70E4CD"/>
 <path d="M26 226H566" stroke="#1B3144"/>
 <path class="scan" d="M26 226H566" stroke="url(#accent)" stroke-width="1.8"/>
@@ -34,9 +34,9 @@
   <text x="17" y="23" fill="#587993" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">agent.config.ts</text>
   <rect class="code-step" x="12" y="39" width="484" height="24" rx="3" fill="#57B4FF" opacity=".065"/><g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">
     <text x="20" y="55" fill="#C9D1D9"><tspan fill="#BAA6FF">const </tspan><tspan fill="#8DCFFF">agent </tspan>= {</text>
-    <text x="40" y="81" fill="#D3E3F3">focus: <tspan fill="#85ECC9">"real-world tasks"</tspan>,</text>
-    <text x="40" y="107" fill="#D3E3F3">tools: [<tspan fill="#85ECC9">"RAG"</tspan>, <tspan fill="#85ECC9">"MCP"</tspan>],</text>
-    <text x="40" y="133" fill="#D3E3F3">loop: <tspan fill="#85ECC9">"build → verify"</tspan></text>
+    <text x="40" y="81" fill="#D3E3F3"><tspan fill="#FFD08A">focus:</tspan> <tspan fill="#85ECC9">"real-world tasks"</tspan>,</text>
+    <text x="40" y="107" fill="#D3E3F3"><tspan fill="#8BD8FF">tools:</tspan> [<tspan fill="#85ECC9">"RAG"</tspan>, <tspan fill="#85ECC9">"MCP"</tspan>],</text>
+    <text x="40" y="133" fill="#D3E3F3"><tspan fill="#D2A6FF">loop:</tspan> <tspan fill="#85ECC9">"build → verify"</tspan></text>
     <text x="20" y="155" fill="#C9D1D9">};</text>
   </g>
   <circle class="signal" cx="477" cy="20" r="3" fill="#65DBFF"/>

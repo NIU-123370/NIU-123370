@@ -7,7 +7,7 @@ Used by `tech-stack.svg` (1200 × 96) and `tech-stack-mobile.svg` (600 × 150).
 - Retrieved: 2026-09-07.
 - License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 - Upstream license: [LICENSE.md](https://github.com/simple-icons/simple-icons/blob/777807a262bb7384ff406fd4b35fdcd02e9514c3/LICENSE.md).
-- The original SVG path data is unchanged. The composition only applies a uniform `#79C0FF` fill, scale, and position, and adds text labels and a `#0D1117` background.
+- The original SVG path data is unchanged. The composition applies recognizable brand colors (Python `#FFD43B`, TypeScript `#3178C6`, FastAPI `#009688`, React `#61DAFB`, Git `#F05032`, Linux `#FCC624`), scale, and position, and adds gray-white text labels and a `#0D1117` background.
 - Both SVGs are self-contained, with no external resources or scripts.
 
 | Icon | Official source | Original SVG SHA-256 |
