@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="140" viewBox="0 0 360 140" fill="none" role="img" aria-label="RAG">
+<defs><linearGradient id="surface" x1="0" y1="0" x2="350" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#1B293D"/><stop offset="1" stop-color="#11192B"/></linearGradient><linearGradient id="edge"><stop stop-color="#FFD18C" stop-opacity=".6"/><stop offset="1" stop-color="#FF9D89" stop-opacity=".12"/></linearGradient><radialGradient id="aura"><stop stop-color="#FFD18C" stop-opacity=".12"/><stop offset="1" stop-color="#FFD18C" stop-opacity="0"/></radialGradient><filter id="shadow" x="-15%" y="-25%" width="130%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#02060F" flood-opacity=".7"/></filter></defs>
+<rect width="360" height="140" fill="#0D1117"/>
+<rect x="7" y="8" width="346" height="116" rx="12" fill="url(#surface)" filter="url(#shadow)"/>
+<rect x="7.5" y="8.5" width="345" height="115" rx="12" stroke="url(#edge)"/>
+<ellipse cx="284" cy="66" rx="68" ry="52" fill="url(#aura)"/>
+<path d="M24 9H156" stroke="#D4EAFF" stroke-opacity=".26"/>
+<text x="27" y="80" fill="#EDF5FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="38" font-weight="600">RAG</text>
+<path d="M297 69H319M312 62L319 69L312 76" stroke="#FFD18C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 105H95" stroke="#FFD18C" stroke-width="2" stroke-opacity=".75"/>
+</svg>

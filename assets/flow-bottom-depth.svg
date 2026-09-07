@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" fill="none" role="img" aria-label="Returning layers of cyan, violet and amber light streams">
+  <defs>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1FE3FF"/><stop offset=".38" stop-color="#69E5FF"/><stop offset=".7" stop-color="#7782FF"/><stop offset="1" stop-color="#BD87FF"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#588CFF"/><stop offset=".36" stop-color="#A884FF"/><stop offset=".68" stop-color="#F076EA"/><stop offset="1" stop-color="#FF94C1"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B478EE"/><stop offset=".44" stop-color="#F47CBA"/><stop offset=".72" stop-color="#FFB576"/><stop offset="1" stop-color="#FFE1A2"/>
+    </linearGradient>
+    <linearGradient id="prism" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42E7FF"/><stop offset=".3" stop-color="#A4F2FF"/><stop offset=".57" stop-color="#CFA9FF"/><stop offset=".8" stop-color="#FFAADD"/><stop offset="1" stop-color="#FFDAB0"/>
+    </linearGradient>
+    <linearGradient id="edge-fade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/><stop offset=".1" stop-color="white"/><stop offset=".9" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vertical-fade" x1="0" y1="0" x2="0" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/><stop offset=".12" stop-color="white"/><stop offset=".82" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edge-mask"><rect width="1200" height="150" fill="url(#edge-fade)"/></mask>
+    <mask id="vertical-mask"><rect width="1200" height="150" fill="url(#vertical-fade)"/></mask>
+    <filter id="atmosphere" x="-15%" y="-150%" width="130%" height="400%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="15"/></filter>
+    <filter id="soft-glow" x="-15%" y="-150%" width="130%" height="400%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="point-glow" x="-15%" y="-150%" width="130%" height="400%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="3"/></filter>
+    <path id="upper" pathLength="1200" d="M-60 106C143 115 212 49 393 34S670 63 840 42S1097 23 1260 62"/>
+    <path id="middle" pathLength="1200" d="M-60 119C146 132 244 68 407 68S633 99 803 79S1096 47 1260 82"/>
+    <path id="lower" pathLength="1200" d="M-60 131C137 137 245 91 405 100S660 119 832 103S1080 72 1260 104"/>
+    <path id="front" pathLength="1200" d="M-60 114C139 124 237 49 421 47S682 81 849 59S1115 29 1260 73"/>
+  </defs>
+  <style>
+    .cyan{stroke:url(#cyan)}.violet{stroke:url(#violet)}.amber{stroke:url(#amber)}
+    .air{stroke-width:30;opacity:.15;filter:url(#atmosphere)}
+    .drift{stroke-width:25;stroke-dasharray:350 850;opacity:.25;filter:url(#atmosphere);animation:travel 28s linear infinite;stroke-dashoffset:-180}
+    .drift.second{animation-duration:35s;animation-delay:-13s;stroke-dashoffset:-740}
+    .glow{stroke-width:9;opacity:.42;filter:url(#soft-glow)}
+    .rail{stroke-width:2.15;opacity:.85;stroke-linecap:round}
+    .lower.rail{stroke-width:1.8;opacity:.7}
+    .sweep{stroke:url(#prism);stroke-dasharray:154 1046;stroke-linecap:round;stroke-dashoffset:-480;animation:travel 9.6s linear infinite;animation-delay:-3.2s}
+    .sweep.halo{stroke-width:17;opacity:.56;filter:url(#soft-glow)}
+    .sweep.edge{stroke-width:3.2;opacity:.98}
+    .sweep.core{stroke:#F6F5FF;stroke-width:1;opacity:.87}
+    .spark{stroke-linecap:round;stroke-dasharray:1 1199;animation:travel 13s linear infinite;animation-delay:-5s;stroke-dashoffset:-460}
+    .spark.two{animation-duration:17s;animation-delay:-12.6s;stroke-dashoffset:-890}
+    .spark.three{animation-duration:21s;animation-delay:-2.2s;stroke-dashoffset:-220}
+    .spark.halo{stroke-width:17;filter:url(#point-glow);opacity:.94}
+    .spark.core{stroke:#F5F8FF;stroke-width:4;opacity:1}
+    .drift,.sweep,.spark{animation-direction:reverse}
+    @keyframes travel{from{stroke-dashoffset:0}to{stroke-dashoffset:-1200}}
+    @media(prefers-reduced-motion:reduce){.drift,.sweep,.spark{animation:none}}
+  </style>
+  <rect width="1200" height="150" fill="#0D1117"/>
+  <g mask="url(#edge-mask)"><g mask="url(#vertical-mask)"><g transform="translate(0 150) scale(1 -1)">
+    <g>
+      <use href="#upper" class="cyan air"/><use href="#middle" class="violet air"/><use href="#lower" class="amber air"/>
+      <use href="#upper" class="cyan drift"/><use href="#middle" class="violet drift second"/>
+    </g>
+    <g>
+      <use href="#upper" class="cyan glow"/><use href="#upper" class="cyan rail"/>
+      <use href="#middle" class="violet glow"/><use href="#middle" class="violet rail"/>
+      <use href="#lower" class="amber glow"/><use href="#lower" class="amber lower rail"/>
+    </g>
+    <g>
+      <use href="#front" class="sweep halo"/><use href="#front" class="sweep edge"/><use href="#front" class="sweep core"/>
+      <use href="#upper" class="cyan spark halo"/><use href="#upper" class="spark core"/>
+      <use href="#middle" class="violet spark halo two"/><use href="#middle" class="spark core two"/>
+      <use href="#lower" class="amber spark halo three"/><use href="#lower" class="spark core three"/>
+    </g>
+  </g></g></g>
+</svg>

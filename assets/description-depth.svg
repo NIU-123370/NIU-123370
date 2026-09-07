@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Making long-running AI agents observable, accountable, and verifiable.</title>
+<desc id="desc">Dimensional neon typography on a floating glass panel, with a deep blue and violet atmosphere, soft shadow, highlighted edges and slow moving light.</desc>
+<defs>
+  <linearGradient id="face" x1="168.00000000000003" y1="95" x2="1044.0" y2="223" gradientUnits="userSpaceOnUse"><stop stop-color="#95FFF1"/><stop offset=".3" stop-color="#86DCFF"/><stop offset=".66" stop-color="#C4B0FF"/><stop offset="1" stop-color="#FFB2E9"/></linearGradient>
+  <linearGradient id="depth" x2="0" y2="1"><stop stop-color="#394977"/><stop offset="1" stop-color="#182340"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#1A3049"/><stop offset=".42" stop-color="#101C33"/><stop offset="1" stop-color="#261C40"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#77EBFF" stop-opacity=".7"/><stop offset=".38" stop-color="#6F9BCF" stop-opacity=".12"/><stop offset=".72" stop-color="#CAA5FF" stop-opacity=".24"/><stop offset="1" stop-color="#FFAFE6" stop-opacity=".75"/></linearGradient>
+  <radialGradient id="cyan"><stop stop-color="#0FBDDF" stop-opacity=".32"/><stop offset="1" stop-color="#0FBDDF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violet"><stop stop-color="#9D48E7" stop-opacity=".34"/><stop offset="1" stop-color="#9D48E7" stop-opacity="0"/></radialGradient>
+  <linearGradient id="shine"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#F0FCFF" stop-opacity=".44"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="shadow" x="-15%" y="-25%" width="130%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#00040D" flood-opacity=".7"/></filter>
+  <filter id="text-shadow" x="-20%" y="-30%" width="140%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#04081B" flood-opacity=".75"/></filter>
+  <filter id="text-glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="panel"><rect x="40" y="20" width="1120" height="320" rx="19"/></clipPath>
+  <clipPath id="letters"><text x="600.0" y="223" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="132" font-weight="900" letter-spacing="-3">AI AGENTS</text></clipPath>
+</defs>
+<style>.light{animation:light 10s ease-in-out infinite}.atmosphere{animation:atmosphere 11s ease-in-out infinite alternate}@keyframes light{0%,15%{transform:translateX(-400px)}85%,100%{transform:translateX(1600px)}}@keyframes atmosphere{from{opacity:.55;transform:translateX(-15px)}to{opacity:1;transform:translateX(15px)}}@media(prefers-reduced-motion:reduce){.light,.atmosphere{animation:none}.light{opacity:0}}</style>
+<rect width="1200" height="360" fill="#0D1117"/>
+<path d="M63 24L1155 37L1132 350L34 330Z" fill="#15172E" stroke="#7D72BD" stroke-opacity=".23"/>
+<rect x="40" y="20" width="1120" height="320" rx="19" fill="url(#glass)" filter="url(#shadow)"/>
+<g clip-path="url(#panel)">
+  <g class="atmosphere"><ellipse cx="288.0" cy="158.4" rx="480.0" ry="237.60000000000002" fill="url(#cyan)"/><ellipse cx="983.9999999999999" cy="234.0" rx="480.0" ry="251.99999999999997" fill="url(#violet)"/></g>
+  <path d="M40 251.99999999999997L768.0 20H983.9999999999999L40 338.4Z" fill="#B8D2FF" opacity=".023"/>
+  <path d="M64 21H1136" stroke="#BAE5FF" stroke-opacity=".35"/>
+</g>
+<rect x="40.5" y="20.5" width="1119" height="319" rx="19" stroke="url(#edge)" stroke-width="1.3"/>
+<text x="600.0" y="87" text-anchor="middle" fill="#C1D3E6" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="36" letter-spacing="-.6">Making long-running</text>
+<g text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="132" font-weight="900" letter-spacing="-3">
+  <text x="600.0" y="223" fill="url(#face)" opacity=".26" filter="url(#text-glow)">AI AGENTS</text>
+  <text x="600.0" y="231" fill="#151F3A" filter="url(#text-shadow)">AI AGENTS</text>
+  <text x="600.0" y="228" fill="#273957">AI AGENTS</text>
+  <text x="600.0" y="225" fill="#51628D">AI AGENTS</text>
+  <text x="600.0" y="223" fill="url(#face)">AI AGENTS</text>
+  <text x="600.0" y="223" fill="none" stroke="#F3FCFF" stroke-width=".65" stroke-opacity=".48">AI AGENTS</text>
+</g>
+<g clip-path="url(#letters)"><rect class="light" x="-150" y="95" width="200" height="160" fill="url(#shine)"/></g>
+<g text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing=".2"><text x="600.0" y="302" fill="#B8EAFF">observable<tspan fill="#748BA9"> · </tspan><tspan fill="#D4C1FF">accountable</tspan><tspan fill="#748BA9"> · </tspan><tspan fill="#FFC3E7">verifiable</tspan></text></g>
+</svg>
