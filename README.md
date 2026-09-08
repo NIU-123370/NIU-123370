@@ -1,8 +1,8 @@
 <p>
   <img src="https://raw.githubusercontent.com/NIU-123370/NIU-123370/83ed98be966da7139a43cd157029b4a8ba42f85b/assets/aurora-top.svg" width="100%" align="top" alt="Continuously flowing cyan, violet, and peach aurora silk" /><br />
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/profile-description-mobile.svg?v=continuous-1" />
-    <img src="./assets/profile-description.svg?v=continuous-1" width="100%" align="top" alt="Making long-running AI agents observable, accountable, and verifiable." />
+    <source media="(max-width: 640px)" srcset="./assets/profile-ai-native-mobile.svg" />
+    <img src="./assets/profile-ai-native.svg" width="100%" align="top" alt="Building AI-native tools, workflows, and experiences." />
   </picture>
 </p>
 
